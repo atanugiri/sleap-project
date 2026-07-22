@@ -1,0 +1,27 @@
+# VCS and local environments
+.git/
+.venv/
+
+# Python build/cache artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.build/
+build/
+dist/
+
+# Tool caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS/editor noise
+.DS_Store
+.vscode/
+
+# Local logs and runtime outputs
+*.log
+logs/
