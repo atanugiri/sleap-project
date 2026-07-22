@@ -1,0 +1,95 @@
+
+SLEAP System Diagnostics
+========================
+Generated: 2026-07-22 14:50:01
+
+[Platform]
+  OS:        Darwin 25.5.0
+  Platform:  macOS-26.5.2-arm64-arm-64bit-Mach-O
+  Machine:   arm64
+  Processor: arm
+  RAM:       10.8 GB / 16.0 GB
+  Disk:      490.7 GB / 926.4 GB
+
+[Python]
+  Version:     3.13.5
+  Executable:  /Users/atanugiri/Downloads/sleap-project/.venv/bin/python3
+  Prefix:      /Users/atanugiri/Downloads/sleap-project/.venv
+  Virtual Env: /Users/atanugiri/Downloads/sleap-project/.venv
+
+[UV]
+  Version:         uv 0.11.30 (Homebrew 2026-07-20 aarch64-apple-darwin)
+  Path:            /opt/homebrew/bin/uv
+  Cache Dir:       /Users/atanugiri/.cache/uv
+  Tool Dir:        /Users/atanugiri/.local/share/uv/tools
+  Tool Bin Dir:    /Users/atanugiri/.local/bin
+  Python Dir:      /Users/atanugiri/.local/share/uv/python
+
+[UV Config]
+  Default Python:    3.13 (/Users/atanugiri/Downloads/sleap-project/.python-version)
+  Resolved Python:   /Users/atanugiri/Downloads/sleap-project/.venv/bin/python3
+  Python Preference: managed (default)
+  Resolution:        highest (default)
+  Index Strategy:    first-index (default)
+  Prerelease:        if-necessary (default)
+
+[Conda]
+  Status:             installed but not activated
+  Version:            conda 24.11.1
+  auto_activate_base: False
+
+[GPU / CUDA]
+  NVIDIA Driver: Not detected
+  PyTorch:       v2.13.0 (MPS)
+
+[Packages]
+  sleap:          v1.6.3 (pip)
+  sleap-io:       v0.7.0 (pip)
+  sleap-nn:       v0.2.0 (pip)
+  numpy:          v2.5.1 (pip)
+  h5py:           v3.16.0 (pip)
+  PySide6:        v6.11.1 (pip)
+  opencv-python:  v5.0.0.93 (pip)
+  torch:          v2.13.0 (pip)
+  imageio:        v2.37.4 (pip)
+  imageio-ffmpeg: v0.6.0 (pip)
+  av:             v15.1.0 (pip)
+
+[CLI Binaries]
+  sleap:
+    Path:      /Users/atanugiri/Downloads/sleap-project/.venv/bin/sleap
+    Source:    venv
+    Python:    /Users/atanugiri/Downloads/sleap-project/.venv/bin/python3
+  sleap-nn:
+    Path:      /Users/atanugiri/Downloads/sleap-project/.venv/bin/sleap-nn
+    Source:    venv
+    Python:    /Users/atanugiri/Downloads/sleap-project/.venv/bin/python3
+  sleap-nn-track:
+    Path:      /Users/atanugiri/Downloads/sleap-project/.venv/bin/sleap-nn-track
+    Source:    venv
+    Python:    /Users/atanugiri/Downloads/sleap-project/.venv/bin/python3
+  sio:
+    Path:      /Users/atanugiri/Downloads/sleap-project/.venv/bin/sio
+    Source:    venv
+    Python:    /Users/atanugiri/Downloads/sleap-project/.venv/bin/python3
+  ffmpeg:
+    Path:      /opt/homebrew/bin/ffmpeg
+    Real Path: /opt/homebrew/Cellar/ffmpeg/8.1/bin/ffmpeg
+    Source:    PATH
+    Python:    v8.1
+  ffmpeg (imageio):
+    Path:      
+/Users/atanugiri/Downloads/sleap-project/.venv/lib/python3.13/site-packages/imageio_ffmpeg/b
+inaries/ffmpeg-macos-aarch64-v7.1
+    Source:    imageio-ffmpeg
+    Python:    v7.1
+
+[PATH (relevant entries)]
+  /Users/atanugiri/Downloads/sleap-project/.venv/bin
+  /Users/atanugiri/miniconda3/condabin
+
+Copy this output when reporting issues at:
+https://github.com/talmolab/sleap/issues
+
+Tip: Use sleap doctor -o to save diagnostics to a file
+

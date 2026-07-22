@@ -1,0 +1,11 @@
+[project]
+name = "sleap-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "sleap-io==0.7.0",
+    "sleap-nn==0.2.0",
+    "sleap[nn]==1.6.3",
+]
